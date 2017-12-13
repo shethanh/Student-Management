@@ -22,6 +22,7 @@ Partial Class frmlogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Me.btnlogin = New System.Windows.Forms.Button()
         Me.btnclose = New System.Windows.Forms.Button()
         Me.textpwd = New System.Windows.Forms.TextBox()
@@ -98,9 +99,15 @@ Partial Class frmlogin
         Me.Label1.Text = "RTC Siem Reap School"
         '
         'frmlogin
+=======
+        Me.SuspendLayout()
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        'Form1
+>>>>>>> 90d132595724a5cc3410704df9055e2a03b0b4e1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.ClientSize = New System.Drawing.Size(684, 448)
         Me.Controls.Add(Me.btnlogin)
         Me.Controls.Add(Me.btnclose)
@@ -112,10 +119,17 @@ Partial Class frmlogin
         Me.Name = "frmlogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
+=======
+        Me.ClientSize = New System.Drawing.Size(527, 380)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Name = "Form1"
+        Me.Text = "Form1"
+>>>>>>> 90d132595724a5cc3410704df9055e2a03b0b4e1
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
+<<<<<<< HEAD
     Friend WithEvents btnlogin As System.Windows.Forms.Button
     Friend WithEvents btnclose As System.Windows.Forms.Button
     Friend WithEvents textpwd As System.Windows.Forms.TextBox
@@ -123,5 +137,7 @@ Partial Class frmlogin
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+=======
+>>>>>>> 90d132595724a5cc3410704df9055e2a03b0b4e1
 
 End Class
